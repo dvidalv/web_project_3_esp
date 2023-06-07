@@ -1,0 +1,36 @@
+.logo{
+  margin-bottom: 90.8px;
+}
+.logo_icon {
+  margin: 34px auto 22.45px auto;
+  width: 32px;
+  height: 32px;
+  position: relative;
+}
+.logo__3 {
+  position: absolute;
+  left: 0;
+  top: 6px;
+}
+.logo__2 {
+  position: absolute;
+  left: 11px;
+  bottom: 0;
+}
+.logo__title {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 6px;
+}
+.header__content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo__title > div{
+  font-size: 2px;
+  display: flex;
+}
+

@@ -1,0 +1,32 @@
+.contenido-principal__content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.contenido-principal__title{
+  margin: 0 auto;
+  text-align: center;
+  width: 793px;
+  height: 200px;
+}
+.contenido-principal__subtitle{
+  text-align: center;
+  width: 720px;
+  height: 72px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  margin: 32px auto 0 auto;
+}
+
+.contenido-principal__contenedor-imagen{
+  margin-top: 64px;
+  background-image: url(../images/kalegin-michail-179870-unsplash.jpg);
+  width: 984px;
+  height: 615px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+}
