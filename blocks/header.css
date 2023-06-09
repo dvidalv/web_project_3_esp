@@ -1,13 +1,15 @@
 .logo{
   margin-bottom: 90.8px;
+  padding-top: 34px;
 }
 .logo_icon {
   margin: 0 auto 22.45px auto;
-  padding-top: 34px;
   width: 32px;
   height: 32px;
   position: relative;
+
 }
+
 .logo__3 {
   position: absolute;
   left: 0;
