@@ -1,38 +1,53 @@
 .introduccion{
-	width: 1017px;
-	margin: 92px auto 0 auto;
-	text-align: center;
+	margin: 44px 0 auto;
+	width: calc(100% - 16px*2);
+	padding: 0 16px;
 }
 .introduccion__title{
 	margin: 0;
+	font-family: "Inter";
 	font-weight: 900;
-	font-size: 54px;
-	line-height: 58px;
+	font-size: 32px;
+	line-height: 35px;
 
 }
 .introduccion__article{
-	margin-top: 42px;
+	margin-top: 9px;
+	font-family: "Inter";
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 30px;
+}
+.introduccion__autor{
+	display: block;
+	text-align: right;
+	font-family: "Inter";
 	font-weight: 400;
 	font-size: 24px;
 	line-height: 34px;
-	width: 722px;
-	text-align: left;
-}
-.introduccion__autor{
-	text-align: initial;
-text-align: right;
-display: inline-block;
-width: 100%;
-font-size: 24px;
-line-height: 34px;
-margin-top: 10px;
-
 }
 .introduccion__descripcion{
-	margin-top: 42px;
+	margin: 0;
+	font-family: "Inter";
 	font-weight: 400;
 	font-size: 16px;
-	line-height: 26.08px;
-	width: 722px;
-	text-align: left;
+	line-height: 26px;
+}
+@media (min-width: 768px){
+	.introduccion{
+		margin-top: 55px;
+	}
+	.introduccion__title{
+		margin: 0;
+		font-family: "Inter";
+		font-weight: 900;
+		font-size: 54px;
+		line-height: 58px;
+	}
+	.introduccion__article{
+		line-height: 34px;
+	}
+	.introduccion__descripcion{
+		margin-top: 32px;
+	}
 }

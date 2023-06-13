@@ -23,31 +23,14 @@
 body {
 
 }
-h1 {
-  font-family: "Inter", sans-serif;
-  font-weight: 900;
-  font-size: 96px;
-  line-height: 100px;
-}
-h2 {
-  font-family: "Inter", sans-serif;
-  font-weight: 400;
-}
+
 p {
   margin: 0;
   font-family: "Inter", sans-serif;
   font-weight: 400;
 }
 
-.page {
-  background-color: #2a2c2f;
-  color: #fff;
-  max-width: 1280px;
-  margin: 0 auto;
-  font-family: "Inter", sans-serif;
-  font-weight: 400;
-  outline: 1px solid;
-}
+
 
 a {
   text-decoration: none;

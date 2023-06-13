@@ -1,5 +1,5 @@
 .logo{
-  margin-bottom: 90.8px;
+  margin-bottom: 50px;
   padding-top: 34px;
 }
 .logo_icon {
@@ -35,5 +35,11 @@
 .logo__title > div{
   font-size: 2px;
   display: flex;
+}
+@media (min-width: 768px){
+  .logo{
+    margin-bottom: 90px;
+
+  }
 }
 
