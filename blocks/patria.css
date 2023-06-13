@@ -7,13 +7,14 @@
 .patria__title{
   margin: 0 auto;
   text-align: center;
-  width: 793px;
-  height: 200px;
+  width: calc(100% - 243px*2);
+
+
 }
 .patria__subtitle{
   text-align: center;
-  width: 720px;
-  height: 72px;
+  width: 100%;
+  /* height: 72px; */
   font-weight: 400;
   font-size: 30px;
   line-height: 36px;
@@ -23,10 +24,45 @@
 .patria__contenedor-imagen{
   margin-top: 64px;
   background-image: url(../images/kalegin-michail-179870-unsplash.jpg);
-  width: 984px;
+  width: calc(100% - 296PX);
   height: 615px;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   filter: grayscale(100%);
 }
+@media (max-width: 768px){
+  .patria__contenedor-imagen{
+    width: 100%;
+  }
+  .patria__title{
+    width: calc(100% - 24px*2);
+  }
+  .patria__subtitle{
+    margin: 99px auto 0 auto;
+  }
+  .patria__contenedor-imagen{
+    margin-top: 69px;
+  }
+}
+@media (max-width: 320px){
+  .patria__contenedor-imagen{
+    width: 100%;
+  }
+  .patria__title{
+    width: calc(100% - 24px*2);
+    font-size: 40px;
+    line-height: 44px;
+  }
+  .patria__subtitle{
+    margin: 99px auto 0 auto;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 60px;
+  }
+  .patria__contenedor-imagen{
+    margin-top: 40px;
+    height: 200px;
+  }
+}
+

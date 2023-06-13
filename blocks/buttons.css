@@ -1,0 +1,41 @@
+.button{
+	color: #fff;
+	font-family: Inter;
+	font-weight: 600;
+	background-color: #0278FE;
+	padding: 13px 20px;
+	border-radius: 4px;
+	display: inline-block;
+	width: 335px;
+	text-align: center;
+
+	transition: background-color ease-in-out .5s;
+	
+}
+.button:hover{
+	background-color: #0063D2;
+}
+.button_L{
+	align-self: self-start;
+}
+@media (max-width: 768px){
+	.button{
+		padding: 13px 20px;
+		border-radius: 4px;
+		display: inline-block;
+		width: calc(100% - 24px*2);
+		text-align: center;
+		margin-top: 41px;
+		transition: background-color ease-in-out .5s;
+		
+	}
+}
+@media (max-width: 320px){
+	.button{
+		margin: 0 auto;
+		width: calc(100% - 32px*2);
+		font-size: 14px;
+		order: 3;
+
+	}
+}
