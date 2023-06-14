@@ -1,4 +1,5 @@
 .button{
+	text-align: center;
 	font-family: "Inter";
 	font-weight: 600;
 	font-size: 14px;
@@ -10,6 +11,13 @@
 	border-radius: 4px;
 	transition: background-color .5s ease-in-out;
 }
+
 .button:hover{
 	background-color: #0063D2;
 }
+@media (min-width: 768px){
+	.button_small{
+		width: 198px;
+	}
+}
+	}

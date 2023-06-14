@@ -33,8 +33,6 @@
 }
 @media (min-width: 768px){
   .patria__title{
-    font-family: "Inter";
-    font-weight: 900;
     font-size: 96px;
     line-height: 100px;
     margin: 0 auto;
@@ -42,9 +40,31 @@
   }
   .patria__subtitle{
     margin: 100px auto 0 auto;
+    font-size: 30px;
+    line-height: 36px;
   }
   .patria__contenedor-imagen{
     margin-top: 70px;
     height: 480px;
+  }
+}
+@media (min-width: 1280px){
+  .patria{
+
+  }
+  .patria__title{
+    width: calc(100% - 243px*2);
+    margin: 0 auto;
+    text-align: center;
+  }
+  .patria__subtitle{
+    margin: 100px auto 0 auto;
+    width: calc(100% - 280px*2);
+    margin-top: 32px;
+  }
+  .patria__contenedor-imagen{
+    width: 984px;
+    margin: 64px 148px;
+    height: 615px;
   }
 }
