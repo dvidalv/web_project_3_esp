@@ -49,9 +49,7 @@
   }
 }
 @media (min-width: 1280px){
-  .patria{
 
-  }
   .patria__title{
     width: calc(100% - 243px*2);
     margin: 0 auto;
