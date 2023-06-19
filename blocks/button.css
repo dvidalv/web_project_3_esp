@@ -5,18 +5,17 @@
 	font-size: 14px;
 	line-height: 17px;
 	color: #fff;
+	width: 335px;
 	background-color: #0278FE;
 	padding: 15px 21px;
 	display: block;
 	border-radius: 4px;
 	transition: background-color .5s ease-in-out;
 }
+.button_small{
+	width: 198px;
+}
 
 .button:hover{
 	background-color: #0063D2;
-}
-@media (min-width: 768px){
-	.button_small{
-		width: 198px;
-	}
 }
