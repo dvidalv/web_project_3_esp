@@ -8,7 +8,7 @@
   font-family: "Inter";
   font-weight: 900;
   font-size: 40px;
-  line-height: 44px;
+  line-height: 1.1;
   margin: 0 auto;
   text-align: center;
 }
@@ -17,7 +17,7 @@
   text-align: center;
   font-weight: 400;
   font-size: 16px;
-  line-height: 20px;
+  line-height: 1.2;
   margin: 60px auto 0 auto;
 }
 
@@ -34,14 +34,14 @@
 @media (min-width: 768px){
   .patria__title{
     font-size: 96px;
-    line-height: 100px;
+    line-height: 1.1;
     margin: 0 auto;
     text-align: center;
   }
   .patria__subtitle{
     margin: 100px auto 0 auto;
     font-size: 30px;
-    line-height: 36px;
+    line-height: 1.2;
   }
   .patria__contenedor-imagen{
     margin-top: 70px;

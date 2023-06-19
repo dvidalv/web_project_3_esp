@@ -10,14 +10,14 @@
   font-family: "Inter";
   font-weight: 900;
   font-size: 32px;
-  line-height: 35px;
+  line-height: 1.1;
 }
 .place__artista {
   margin-top: 30px;
   font-family: "Inter";
   font-weight: 400;
   font-size: 18px;
-  line-height: 22px;
+  line-height: 1.2;
 }
 .place__artista > p {
   margin-top: 8px;
@@ -26,7 +26,7 @@
   font-family: "Inter";
   font-weight: 400;
   font-size: 12px;
-  line-height: 14px;
+  line-height: 1.16;
   color: #aaaaaa;
   text-transform: uppercase;
   letter-spacing: 4px;
@@ -38,7 +38,7 @@
   font-family: "Inter", Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.6;
   margin-bottom: 10px;
 }
 .place__image-container {
@@ -62,12 +62,12 @@
   background-image: url("../images/Muramvya-Burundi.jpg");
 }
 .place__image-container_barahona {
-  background-image: url("../images/Playa-San-Rafael-Barahona-scaled.jpg");
+  background-image: url("../images/barahona.jpg");
 }
 @media (min-width: 500px){
 	.place__texto > p {
 
-		line-height: 20px;
+		line-height: 1.2;
 
 	}
 }
@@ -88,7 +88,8 @@
     width: 484px;
   }
 	.place__texto > p {
-		font-size: 12px;
+		/* font-size: 12px; */
+    font-size: 1.8vw;
 		line-height: 1.1;
     font-weight: 400;
 	}
@@ -97,6 +98,19 @@
     margin: 0;
 		height: 100%;
   }
+
+}
+@media (min-width: 1024px) {
+
+
+	.place__texto > p {
+		/* font-size: 16px; */
+    font-size: 1.8vw;
+		line-height: 1.2;
+    font-weight: 400;
+    
+	}
+	
 
 }
 @media (min-width: 1280px) {
@@ -117,11 +131,12 @@
 		font-family: "Inter";
 		font-weight: 900;
 		font-size: 72px;
-		line-height: 76px;
+		line-height: 1.1;
 	}
 	.place__texto > p {
 		font-size: 18px;
-		line-height: 30px;
+
+		line-height: 1.2;
 
 	}
 	.place__artista{

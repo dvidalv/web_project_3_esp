@@ -23,7 +23,7 @@
 	font-family: Inter;
 	font-weight: 900;
 	font-size: 32px;
-	line-height: 35px;
+	line-height: 1.1;
 	text-align: center;
 
 }
@@ -32,7 +32,7 @@
 	font-family: Inter;
 	font-weight: 400;
 	font-size: 14px;
-	line-height: 16px;
+	line-height:1.1;
 	text-align: center;
 	margin: 16px 0 16px;
 }
@@ -57,13 +57,13 @@
 	.visitanos__titulo{
 
 		font-size: 72px;
-		line-height: 76px;
+		line-height: 1.1;
 		margin: 0 72px;
 	}
 	.visitanos__subtitulo{
 		width: 280px;
 		margin: 32px 0;
 		font-size: 18px;
-		line-height: 22px;
+		line-height: 1.2;
 	}
 }
