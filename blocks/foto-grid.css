@@ -47,7 +47,7 @@
 		padding: 0 24px;
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
-		grid-template-rows: 1fr 1fe;
+		grid-template-rows: 1fr 1fr;
 		gap: 16px;
 	}
 	.foto-grid__item {
