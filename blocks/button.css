@@ -5,13 +5,19 @@
 	font-size: 14px;
 	line-height: 1.2;
 	color: #fff;
-	width: 335px;
+	width: calc(100% - 16px*2);
 	background-color: #0278FE;
 	padding: 15px 21px;
 	display: block;
 	border-radius: 4px;
+	/* transition: background-color .5s ease-in-out; */
 	transition: background-color .5s ease-in-out;
+	-webkit-transition: background-color .5s ease-in-out;
+	-moz-transition: background-color .5s ease-in-out;
+	-ms-transition: background-color .5s ease-in-out;
+	-o-transition: background-color .5s ease-in-out;
 }
+
 
 .button:hover{
 	background-color: #0063D2;
