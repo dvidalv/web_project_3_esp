@@ -1,9 +1,9 @@
 .logo{
   margin-bottom: 50px;
-  padding-top: 34px;
+  padding-top: 20px;
 }
 .logo__icon {
-  margin: 0 auto 22.45px auto;
+  margin: 0 auto 17px auto;
   width: 32px;
   height: 32px;
   position: relative;
@@ -39,7 +39,16 @@
 @media (min-width: 768px){
   .logo{
     margin-bottom: 90px;
+    padding-top: 34px;
 
+  }
+  .logo__icon{
+    margin-bottom: 22px;
+  }
+}
+@media (min-width: 1280px){
+  .logo{
+    margin-bottom: 91px;
   }
 }
 

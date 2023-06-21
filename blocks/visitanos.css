@@ -20,7 +20,7 @@
 .visitanos__titulo{
 	margin: 0;
 	width: calc(100% - 16px*2);
-	font-family: Inter;
+	font-family: Inter, Arial, Helvetica, sans-serif;
 	font-weight: 900;
 	font-size: 32px;
 	line-height: 1.1;
@@ -29,10 +29,10 @@
 }
 .visitanos__subtitulo{
 	width: calc(100% - 20px*2);
-	font-family: Inter;
+	font-family: Inter, Arial, Helvetica, sans-serif;
 	font-weight: 400;
 	font-size: 14px;
-	line-height:1.1;
+	line-height:1.15;
 	text-align: center;
 	margin: 16px 0 16px;
 }
@@ -48,6 +48,11 @@
 .visitanos:hover .visitanos__overlay{
 	opacity: .8;
 	transition: opacity .5s ease-in-out;
+}
+@media (min-width: 480px){
+	.visitanos__subtitulo{
+		width: 280px;
+	}
 }
 @media (min-width: 768px){
 	.visitanos{

@@ -2,12 +2,12 @@
 	text-align: center;
 	font-family: "Inter", Arial, Helvetica, sans-serif;
 	font-weight: 600;
-	font-size: 14px;
+	font-size: 18px;
 	line-height: 1.2;
 	color: #fff;
 	width: calc(100% - 16px*2);
 	background-color: #0278FE;
-	padding: 15px 21px;
+	padding: 15px 20px;
 	display: block;
 	border-radius: 4px;
 	/* transition: background-color .5s ease-in-out; */
@@ -24,5 +24,12 @@
 }
 
 .button_small{
+	font-weight: 600;
 	width: 198px;
+}
+
+.button_place{
+	align-self: baseline;
+	margin-top: 20px;
+	width: auto;
 }

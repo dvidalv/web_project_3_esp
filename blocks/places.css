@@ -32,7 +32,7 @@
   letter-spacing: 4px;
 }
 .place__texto {
-  margin-bottom: 8px;
+  margin-top: 8px;
 }
 .place__texto > p {
   font-family: "Inter", Arial, Helvetica, sans-serif;
@@ -42,7 +42,7 @@
   margin-bottom: 10px;
 }
 .place__image-container {
-  margin: 30px 0 8px;
+  margin: 30px 0 0;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -80,18 +80,28 @@
   }
   .place {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 50% 50%;
     grid-template-rows: auto 340px auto;
     gap: 28px;
   }
   .place__title{
-    width: 484px;
+    width: auto;
+    font-size: 42px;
+    line-height: 1.1;
+
+  }
+  .place__artista > p {
+    font-size: 18px;
+  }
+  .place__texto{
+    grid-row: span 2;
   }
 	.place__texto > p {
-		/* font-size: 12px; */
-    font-size: 1.8vw;
-		line-height: 1.1;
+    font-size: 16px;
+		line-height: 26px;
     font-weight: 400;
+    /* padding-right: 24px; */
+
 	}
 	
   .place__image-container {
@@ -116,7 +126,7 @@
 @media (min-width: 1280px) {
   .places {
     padding: 0 24px;
-    margin-top: 88px;
+    margin-top: 92px;
     display: flex;
     flex-direction: column;
   }
@@ -125,6 +135,9 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto 340px auto;
     gap: 48px;
+  }
+  .place:last-of-type{
+    margin-bottom: 0;
   }
 	.place__title {
 		margin: 0;

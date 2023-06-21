@@ -1,6 +1,6 @@
 .foto-grid{
 	margin: 38px 0 auto;
-	padding: 0 16px;
+	padding: 0 12px;
 }
 .foto-grid__item {
 	width: 100%;
@@ -8,6 +8,7 @@
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+	margin-bottom: 16px;
 }
 .foto-grid__item_7{
 	background-image: url("../images/__item-7.jpg");
@@ -35,9 +36,6 @@
 	background-image: url("../images/__item-3.jpg");
 }
 
-.foto-grid__item{
-	margin-bottom: 16px;
-}
 .foto-grid__item:last-of-type{
 	margin-bottom: 0;
 }
@@ -59,8 +57,7 @@
 }
 @media (min-width: 768px){
 	.foto-grid{
-		margin: 64px 0 auto;
-		padding: 0 24px;
+		display: unset;
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		gap: 16px;
