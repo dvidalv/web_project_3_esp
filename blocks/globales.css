@@ -3,6 +3,9 @@
 *:after {
   box-sizing: inherit;
 }
+body{
+  background-color: #2a2c2f;
+}
 @font-face {
   font-family: "Inter";
   font-style: normal;

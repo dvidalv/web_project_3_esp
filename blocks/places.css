@@ -49,28 +49,8 @@
 	width: 100%;
 	height: 100vw;
 }
-.place__image-container_ucrania {
-  background-image: url("../images/ucrania.jpg");
-}
-.place__image-container_gales {
-  background-image: url("../images/Criccieth-Gales.jpg");
-}
-.place__image-container_berea {
-  background-image: url("../images/Berea-Estados-Unidos.jpg");
-}
-.place__image-container_burundi {
-  background-image: url("../images/Muramvya-Burundi.jpg");
-}
-.place__image-container_barahona {
-  background-image: url("../images/barahona.jpg");
-}
-@media (min-width: 500px){
-	.place__texto > p {
 
-		line-height: 1.2;
 
-	}
-}
 @media (min-width: 768px) {
   .places {
     padding: 0 24px;
@@ -80,7 +60,7 @@
   }
   .place {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: auto 340px auto;
     gap: 28px;
   }
