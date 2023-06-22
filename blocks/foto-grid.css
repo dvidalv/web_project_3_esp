@@ -5,46 +5,8 @@
 .foto-grid > div{
 	width: 100%;
 	height: 75vw;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
+
 	margin-bottom: 16px;
-}
-
-.foto-grid > div:nth-child(1){
-	background-image: url("../images/__item-7.jpg");
-}
-
-.foto-grid > div:nth-child(2){
-	background-image: url("../images/__item-6.jpg");
-}
-
-.foto-grid > div:nth-child(3){
-	background-image: url("../images/__item-5.jpg");
-}
-
-.foto-grid > div:nth-child(4){
-	background-image: url("../images/__item-4.jpg");
-}
-
-.foto-grid > div:nth-child(5){
-	background-image: url("../images/__item.jpg");
-}
-
-.foto-grid > div:nth-child(6){
-	background-image: url("../images/__item-1.jpg");
-}
-
-.foto-grid > div:nth-child(7){
-	background-image: url("../images/__item-2.jpg");
-}
-
-.foto-grid > div:nth-child(8){
-	background-image: url("../images/__item-3.jpg");
-}
-
-.foto-grid__item:last-of-type{
-	margin-bottom: 0;
 }
 
 @media (min-width: 768px){
@@ -61,6 +23,8 @@
 		background-position: center;
 		background-size: cover;
 		margin-bottom: 16px;
+		overflow: hidden;
+		object-fit: cover;
 	}
 
 }
