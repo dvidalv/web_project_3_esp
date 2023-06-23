@@ -19,9 +19,11 @@
   font-size: 18px;
   line-height: 1.2;
 }
+
 .place__artista > p {
   margin-top: 8px;
 }
+
 .place__span {
   font-family: "Inter";
   font-weight: 400;
@@ -31,17 +33,8 @@
   text-transform: uppercase;
   letter-spacing: 4px;
 }
-.place__texto {
-  margin-top: 8px;
-}
-.place__texto > p {
-  font-family: "Inter", Arial, Helvetica, sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.6;
-  margin-bottom: 10px;
-}
-.place__image-container {
+
+.place__imagen {
   margin: 30px 0 0;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -50,6 +43,17 @@
 	height: 100vw;
 }
 
+.place__texto {
+  margin-top: 8px;
+}
+
+.place__texto-parrafo {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
 
 @media (min-width: 768px) {
   .places {
@@ -83,7 +87,7 @@
 
 	}
 	
-  .place__image-container {
+  .place__imagen {
     margin: 0;
 		height: 100%;
   }

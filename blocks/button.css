@@ -1,9 +1,9 @@
 .button{
 	text-align: center;
 	font-family: "Inter", Arial, Helvetica, sans-serif;
-	font-weight: 600;
-	font-size: 18px;
-	line-height: 1.2;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1;
 	color: #fff;
 	width: calc(100% - 16px*2);
 	background-color: #0278FE;
