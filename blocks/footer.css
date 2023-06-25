@@ -1,18 +1,20 @@
-.footer{
-	font-family: "Inter", Arial, Helvetica, sans-serif;
+.footer {
+  padding: 64px 0 24px 0;
+}
+.footer__title {
 	text-align: center;
-	padding: 64px 0 24px 0;
+	font-family: "Inter", Arial, Helvetica, sans-serif;
 	font-style: normal;
-	font-size: 14px;
-	line-height: 1;
+  font-size: 14px;
+  line-height: 1;
 }
-@media (min-width: 768px){
-	.footer{
-		padding: 88px 0 24px 0;
-	}
+@media (min-width: 768px) {
+  .footer {
+    padding: 88px 0 24px 0;
+  }
 }
-@media (min-width: 1280px){
-	.footer{
-		padding: 92px 0 24px 0;
-	}
+@media (min-width: 1280px) {
+  .footer {
+    padding: 92px 0 24px 0;
+  }
 }

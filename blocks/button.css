@@ -29,7 +29,17 @@
 }
 
 .button_place{
-	align-self: baseline;
+	align-self:start;
 	margin-top: 20px;
 	width: auto;
+}
+@media (min-width: 1280px){
+	.button{
+		/* padding: 15px 10px; */
+		width: 355px;
+		font-weight: 600;
+		font-size: 18px;
+		line-height: 1;
+		
+	}
 }
